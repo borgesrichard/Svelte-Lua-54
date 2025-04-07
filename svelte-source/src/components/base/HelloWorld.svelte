@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { visibility } from '../store/stores';
-  import { fetchNui } from '../utils/fetchNui';
+  import { visibility } from '@store/stores';
+  import { fetchNui } from '@utils/fetchNui';
 
   interface ReturnData {
     x: number;

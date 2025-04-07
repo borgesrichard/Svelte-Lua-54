@@ -1,7 +1,7 @@
 <script lang="ts">
-  import VisibilityProvider from './providers/VisibilityProvider.svelte';
-  import HelloWorld from './components/HelloWorld.svelte';
-  import { debugData } from './utils/debugData';
+  import VisibilityProvider from '@providers/VisibilityProvider.svelte';
+  import HelloWorld from '@components/base/HelloWorld.svelte';
+  import { debugData } from '@utils/debugData';
 
   debugData([
     {
