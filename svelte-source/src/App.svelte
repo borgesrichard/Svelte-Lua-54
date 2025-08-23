@@ -1,10 +1,17 @@
 <script lang="ts">
   import { isEnvBrowser } from "@utils/misc";
   import VisibilityProvider from '@providers/VisibilityProvider.svelte';
+  import {EventHandler} from '@utils/eventHandler';
   import Desktop from '@components/Desktop.svelte';
   import { debugData } from '@utils/debugData';
 
   debugData([{ action: 'setVisible', data: true }]);
+
+  if (isEnvBrowser()) {
+    
+  } else { 
+    EventHandler();
+  }
 
   let background = "";
   if (isEnvBrowser()) {
