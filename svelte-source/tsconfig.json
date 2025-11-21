@@ -16,8 +16,7 @@
       "@store/*": ["src/store/*"],
       "@utils/*": ["src/utils/*"],
       "@base/*": ["src/components/base/*"],
-      "@shared/*": ["src/components/shared/*"],
-      "@apps/*": ["src/components/apps/*"]
+      "@shared/*": ["src/components/shared/*"]
     },
     /**
      * Typecheck JS in `.svelte` and `.js` files by default.
