@@ -9,9 +9,10 @@ version "1.0.0"
 lua54 'yes'
 use_experimental_fxv2_oal 'yes'
 
-ui_page 'web/index.html'
+ui_page 'dist/index.html'
 
 shared_scripts {
+	'@ox_lib/init.lua',
 	'shared/*.lua'
 }
 
@@ -24,6 +25,10 @@ server_scripts {
 }
 
 files {
-	'web/index.html',
-	'web/**/*'
+	'dist/index.html',
+	'dist/**/*'
+}
+
+dependencies {
+	'ox_lib'
 }

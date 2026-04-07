@@ -5,7 +5,7 @@
   import Desktop from '@components/Desktop.svelte';
   import { debugData } from '@utils/debugData';
 
-  debugData([{ action: 'setVisible', data: true }]);
+  debugData([{ action: 'setVisible', data: { show: true } }]);
 
   if (isEnvBrowser()) {
     
